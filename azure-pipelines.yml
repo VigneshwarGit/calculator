@@ -9,7 +9,6 @@ trigger:
 pool:
   vmImage: ubuntu-latest
   name: Self-Hosted
-demands:
 - agent.name -equals agent1
 
 steps:
