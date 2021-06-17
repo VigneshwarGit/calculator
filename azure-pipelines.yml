@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
- name: selfhosted
+ name: Self-Hosted
  demands:
  - agent.name -equals agent1
 
